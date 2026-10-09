@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "last_attempt_at": "2026-10-09T15:11:13.475344+00:00",
+  "last_successful_scan_at": null,
+  "last_partial_success_at": null,
+  "outcome": "FAILED",
+  "successful_sources": [],
+  "failed_sources": [
+    "upwork",
+    "freelancer"
+  ],
+  "sources": [
+    {
+      "source_id": "upwork",
+      "mode": "LIVE",
+      "status": "BLOCKED",
+      "captured_at": null,
+      "attempts": 0,
+      "coverage": {
+        "complete": false,
+        "description": "Upwork: no unattended source configured; RSS discontinued. No scraping or login bypass."
+      },
+      "error_code": "rss_retired_and_no_approved_api_access",
+      "checked_count": null
+    },
+    {
+      "source_id": "freelancer",
+      "mode": "LIVE",
+      "status": "BLOCKED",
+      "captured_at": null,
+      "attempts": 0,
+      "coverage": {
+        "complete": false,
+        "description": "Freelancer: User Agreement section 33 requires express permission. No current permission or OAuth."
+      },
+      "error_code": "express_automation_permission_and_api_authorization_required",
+      "checked_count": null
+    }
+  ],
+  "source_last_success": {},
+  "errors": [
+    {
+      "source_id": "upwork",
+      "code": "rss_retired_and_no_approved_api_access"
+    },
+    {
+      "source_id": "freelancer",
+      "code": "express_automation_permission_and_api_authorization_required"
+    }
+  ],
+  "freshness_hours": null
+}
