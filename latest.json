@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-10-11",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-10-10T17:56:18.831053+00:00",
+  "generated_at": "2026-10-10T22:48:52.622916+00:00",
   "counts": {
     "checked_unique": 0,
     "new_unique": 0,
@@ -14,7 +14,7 @@
   },
   "status": {
     "schema_version": 1,
-    "last_attempt_at": "2026-10-10T17:56:18.831053+00:00",
+    "last_attempt_at": "2026-10-10T22:48:52.622916+00:00",
     "last_successful_scan_at": null,
     "last_partial_success_at": null,
     "outcome": "FAILED",
